@@ -1,0 +1,67 @@
+{
+  "marketplace": "https://data.bitrovas.ch",
+  "catalog": "https://data.bitrovas.ch/catalog",
+  "payment_method": "bitcoin_lightning",
+  "formats": [
+    "csv",
+    "json",
+    "parquet"
+  ],
+  "datasets": [
+    {
+      "name": "country_timezones_scd2",
+      "slug": "country_timezones_scd2",
+      "url": "https://data.bitrovas.ch/catalog/country_timezones_scd2/2026.html",
+      "formats": [
+        "csv",
+        "json",
+        "parquet"
+      ],
+      "version": "2026"
+    },
+    {
+      "name": "swiss_communes_levels",
+      "slug": "swiss_communes_levels",
+      "url": "https://data.bitrovas.ch/catalog/swiss_communes_levels/2026-02-01.html",
+      "formats": [
+        "csv",
+        "json",
+        "parquet"
+      ],
+      "version": "2026-02-01"
+    },
+    {
+      "name": "swiss_communes_snapshot",
+      "slug": "swiss_communes_snapshot",
+      "url": "https://data.bitrovas.ch/catalog/swiss_communes_snapshot/2026-02-01.html",
+      "formats": [
+        "csv",
+        "json",
+        "parquet"
+      ],
+      "version": "2026-02-01"
+    },
+    {
+      "name": "swiss_communes_snapshot_flattend",
+      "slug": "swiss_communes_snapshot_flattend",
+      "url": "https://data.bitrovas.ch/catalog/swiss_communes_snapshot_flattend/2026-02-01.html",
+      "formats": [
+        "csv",
+        "json",
+        "parquet"
+      ],
+      "version": "2026-02-01"
+    },
+    {
+      "name": "world_countries_codes",
+      "slug": "world_countries_codes",
+      "url": "https://data.bitrovas.ch/catalog/world_countries_codes/2026-03-09.html",
+      "formats": [
+        "csv",
+        "json",
+        "parquet"
+      ],
+      "version": "2026-03-09"
+    }
+  ]
+}

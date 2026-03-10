@@ -1,0 +1,15 @@
+{
+  "service": "Bitrovas Data Marketplace",
+  "type": "dataset_marketplace",
+  "marketplace": "https://data.bitrovas.ch",
+  "catalog": "https://data.bitrovas.ch/catalog",
+  "docs": "https://data.bitrovas.ch/docs",
+  "discovery": "https://data.bitrovas.ch/.well-known/datamesh.json",
+  "openapi": "https://data.bitrovas.ch/openapi.json",
+  "payment_method": "bitcoin_lightning",
+  "formats": [
+    "csv",
+    "json",
+    "parquet"
+  ]
+}
