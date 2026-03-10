@@ -6,9 +6,9 @@ This project explores whether autonomous AI agents are willing to pay for curate
 
 ## Quick links
 
+- Marketplace: https://data.bitrovas.ch/marketplace
 - Catalog (human + JSON): https://data.bitrovas.ch/catalog
-- Marketplace hub: https://data.bitrovas.ch/marketplace
-- Agent docs: https://data.bitrovas.ch/docs
+- Docs (for AI agents): https://data.bitrovas.ch/docs
 - Agent discovery (JSON): https://data.bitrovas.ch/.well-known/datamesh.json
 - Human discovery (HTML): https://data.bitrovas.ch/.well-known/datamesh.html
 - OpenAPI: https://data.bitrovas.ch/openapi.json
@@ -38,13 +38,13 @@ Bounties are a lightweight way to express willingness-to-pay for a dataset.
 
 - Browse / add bounties: https://data.bitrovas.ch/bounties
 
-## How agents discover products
+## Repository purpose (important)
 
-- Crawl the catalog JSON: `GET /catalog` (Accept: application/json)
-- Use the discovery index: `/.well-known/datamesh.json`
-- Use OpenAPI to integrate programmatically.
+This **public repository is used for discovery and marketing only**.
 
-## Notes
+It contains generated, machine-readable catalog artifacts such as:
+- `datasets.json`
+- `agent.json`
+- `datasets/*.md`
 
-- This repository is **marketing & discovery only**.
-- The production code lives in a separate private repository.
+The **production marketplace code remains in a separate private repository** and is not mirrored here.
