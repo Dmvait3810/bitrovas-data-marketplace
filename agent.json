@@ -1,10 +1,17 @@
 {
+  "protocol": {"name": "Bitrovas Handshake Protocol", "version": "0.1"},
   "service": "Bitrovas Data Marketplace",
   "type": "dataset_marketplace",
+  "provider": "Bitrovas",
+  "homepage": "https://bitrovas.ch",
   "marketplace": "https://data.bitrovas.ch",
   "catalog": "https://data.bitrovas.ch/catalog",
   "docs": "https://data.bitrovas.ch/docs",
-  "discovery": "https://data.bitrovas.ch/.well-known/datamesh.json",
+  "handshake_docs": "https://data.bitrovas.ch/docs/handshake",
+  "handshake": "https://data.bitrovas.ch/.well-known/bitrovas.json",
+  "legacy_discovery": "https://data.bitrovas.ch/.well-known/datamesh.json",
+  "ecosystem_root": "https://bitrovas.ch/.well-known/bitrovas.json",
+  "clawrence": "https://clawrence.bitrovas.ch/.well-known/bitrovas.json",
   "openapi": "https://data.bitrovas.ch/openapi.json",
   "payment_method": "bitcoin_lightning",
   "formats": [
